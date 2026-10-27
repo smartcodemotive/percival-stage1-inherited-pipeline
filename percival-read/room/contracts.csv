@@ -1,0 +1,21 @@
+line_id,contract_id,account_id,product,line_type,price,cadence,term_months,signed_date,start_date,end_date,supersedes_line_id,cancel_effective_date,sites_in_scope,notes
+L001,C-1001,A01,Platform,recurring,15000,monthly,36,2024-03-10,2024-04-01,2027-03-31,,,1,
+L002,C-1001,A01,Implementation,one_time,25000,once,,2024-03-10,2024-04-01,,,,1,Setup fee
+L003,C-1002,A02,Platform,recurring,30000,quarterly,36,2025-01-15,2025-02-01,2028-01-31,,,1,
+L004,C-1003,A03,Platform,recurring,240000,annual,36,2024-06-01,2024-07-01,2027-06-30,,,1,
+L005,C-1003,A03,Platform,recurring,200000,annual,18,2025-12-10,2026-01-01,2027-06-30,L004,,1,Amendment 1: reduced scope from 1 January 2026
+L006,C-1004,A04,Platform (5 sites),recurring,120000,annual,36,2025-09-01,2025-10-01,2028-09-30,,,5,Single fee for all five sites; no per-site schedule
+L007,C-1004,A04,Analytics add-on,recurring,20000,annual,36,2025-09-01,2025-11-15,2028-09-30,,,1,
+L008,C-1005,A05,Platform,recurring,8000,monthly,24,2025-03-03,2025-04-01,2027-03-31,,,1,
+L009,C-1006,A05,Second business unit,recurring,60000,annual,24,2026-05-20,2026-09-01,2028-08-31,,,1,
+L010,C-1007,A06,Platform,recurring,150000,annual,36,2024-11-20,2025-01-01,2027-12-31,,,1,
+L011,C-1008,A06,Expansion,recurring,,annual,24,2026-06-12,2026-10-01,2028-09-30,,,1,Price per Order Form 3 (not in room)
+L012,C-1009,A07,Platform,recurring,270000,term,18,2025-08-11,2025-09-01,2027-02-28,,,1,Single fee for the 18-month term
+L013,C-1010,A08,Platform,recurring,90000,annual,24,2025-05-05,2025-06-01,2027-05-31,,,1,
+L014,,A08,Expansion,recurring,110000,annual,24,,2026-08-01,2028-07-31,,,1,Verbal commit; paper expected July
+L015,C-1011,A09,Platform,recurring,75000,annual,36,2023-05-15,2023-06-01,2026-05-31,,,1,
+L016,C-1012,A10,Platform,recurring,5000,monthly,24,2025-06-20,2025-07-01,2027-06-30,,,1,
+L017,C-1013,A10,Reporting module,recurring,40000,annual,24,2025-06-20,2025-07-01,2027-06-30,,2026-03-31,1,Cancelled by customer notice
+L018,C-1014,A11,Platform,recurring,12000,quarterly,24,2026-03-02,2026-04-01,2028-03-31,,,1,
+L019,C-1015,A12,Platform,recurring,130000,annual,36,2025-02-10,2025-03-01,2028-02-29,,,1,
+L020,C-1012,A10,Usage,usage_minimum,1500,monthly,24,2025-06-20,2025-07-01,2027-06-30,,,1,Monthly minimum; overage billed over the trailing 12 months was 22400

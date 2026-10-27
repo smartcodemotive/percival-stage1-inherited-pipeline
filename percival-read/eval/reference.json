@@ -1,0 +1,107 @@
+{
+  "assembled": "2026-10-02",
+  "source": "v0.3 run, reconciled to management's ARR table; L001, L005, L006, L012, L018 and L019 checked by hand against the contract files",
+  "figures": {
+    "contracted": {
+      "known": 1472000.0
+    },
+    "future_start": {
+      "known": 60000.0
+    },
+    "live": {
+      "low": 1292000.0,
+      "high": 1412000.0
+    },
+    "top3_share_pct": {
+      "value": 52.6
+    }
+  },
+  "live_by_customer": {
+    "A03": 200000.0,
+    "A04": 20000.0,
+    "A05": 96000.0,
+    "A06": 150000.0,
+    "A07": 180000.0,
+    "A08": 90000.0,
+    "A10": 60000.0,
+    "A11": 48000.0,
+    "A12": 130000.0,
+    "P01": 300000.0
+  },
+  "lines": {
+    "L001": {
+      "annual_value": 180000.0,
+      "live_status": "live"
+    },
+    "L003": {
+      "annual_value": 120000.0,
+      "live_status": "live"
+    },
+    "L005": {
+      "annual_value": 200000.0,
+      "live_status": "live"
+    },
+    "L006": {
+      "annual_value": 120000.0,
+      "live_status": "unknown"
+    },
+    "L007": {
+      "annual_value": 20000.0,
+      "live_status": "live"
+    },
+    "L008": {
+      "annual_value": 96000.0,
+      "live_status": "live"
+    },
+    "L009": {
+      "annual_value": 60000.0,
+      "live_status": "not_live"
+    },
+    "L010": {
+      "annual_value": 150000.0,
+      "live_status": "live"
+    },
+    "L011": {
+      "annual_value": null,
+      "live_status": "not_live"
+    },
+    "L012": {
+      "annual_value": 180000.0,
+      "live_status": "live"
+    },
+    "L013": {
+      "annual_value": 90000.0,
+      "live_status": "live"
+    },
+    "L016": {
+      "annual_value": 60000.0,
+      "live_status": "live"
+    },
+    "L018": {
+      "annual_value": 48000.0,
+      "live_status": "live"
+    },
+    "L019": {
+      "annual_value": 130000.0,
+      "live_status": "live"
+    },
+    "L020": {
+      "annual_value": 18000.0,
+      "live_status": "live"
+    }
+  },
+  "management_names": {
+    "Norvane Logistics US": "A01",
+    "Norvane Logistics UK": "A02",
+    "Calder Marine": "A03",
+    "Brightwell Foods": "A04",
+    "Osprey Health": "A05",
+    "Tessel Retail": "A06",
+    "Kestrel Energy": "A07",
+    "Lumen Parks": "A08",
+    "Halden Rail": "A09",
+    "Varga Mills": "A10",
+    "Pinecrest Schools": "A11",
+    "Sable Aerospace": "A12"
+  }
+}

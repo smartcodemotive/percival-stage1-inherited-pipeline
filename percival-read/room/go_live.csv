@@ -1,0 +1,17 @@
+line_id,site,live_date,evidence
+L001,,2024-04-01,Acceptance certificate
+L003,,2025-02-01,Acceptance certificate
+L004,,2024-07-01,Acceptance certificate
+L006,Site 1,2025-11-15,Site acceptance
+L006,Site 2,2026-02-01,Site acceptance
+L006,Site 3,2026-07-20,Site acceptance (scheduled)
+L007,,2025-11-15,Activation log
+L008,,2025-04-01,Acceptance certificate
+L010,,2025-01-01,Acceptance certificate
+L012,,2025-09-01,Activation log
+L013,,2025-06-01,Acceptance certificate
+L015,,2023-06-01,Acceptance certificate
+L016,,2025-07-01,Activation log
+L017,,2025-07-01,Activation log
+L019,,2025-03-01,Acceptance certificate
+L020,,2025-07-01,Activation log
